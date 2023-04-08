@@ -21,8 +21,6 @@ class EstoqueController(
 
     @PutMapping
     fun alteraEstoque(@RequestBody estoqueDTO: EstoqueDTO): ResponseEntity<EstoqueDTO>? {
-        err.println(estoqueDTO.codigoProduto)
-
         this.rabbitMQService.enviaMensagem(QUEUE_ESTOQUE.value, estoqueDTO)
         return ResponseEntity(estoqueDTO, OK)
     }
