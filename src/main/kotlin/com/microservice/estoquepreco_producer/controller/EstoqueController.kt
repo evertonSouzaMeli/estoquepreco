@@ -1,7 +1,7 @@
-package com.microservice.estoquepreco.controller
+package com.microservice.estoquepreco_producer.controller
 
-import com.microservice.estoquepreco.dto.EstoqueDTO
-import com.microservice.estoquepreco.service.RabbitMQService
+import com.microservice.estoquepreco_producer.dto.EstoqueDTO
+import com.microservice.estoquepreco_producer.service.RabbitMQService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.PutMapping
 import org.springframework.web.bind.annotation.RequestBody
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 import org.springframework.http.ResponseEntity
 import org.springframework.http.HttpStatus.OK
-import com.microservice.estoquepreco.enums.RabbitMQEnums.QUEUE_ESTOQUE
+import com.microservice.estoquepreco_producer.enums.RabbitMQEnums.QUEUE_ESTOQUE
 
 @RestController
 @RequestMapping("/estoque")

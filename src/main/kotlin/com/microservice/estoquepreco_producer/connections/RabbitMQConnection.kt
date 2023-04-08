@@ -1,13 +1,13 @@
-package com.microservice.estoquepreco.connections
+package com.microservice.estoquepreco_producer.connections
 
-import com.microservice.estoquepreco.enums.RabbitMQEnums
+import com.microservice.estoquepreco_producer.enums.RabbitMQEnums
 import org.springframework.amqp.core.AmqpAdmin
 import org.springframework.amqp.core.Binding
 import org.springframework.amqp.core.Queue
 import org.springframework.amqp.core.DirectExchange
 import org.springframework.stereotype.Component
 
-//Classe de configuração de conexão com RabbitMQ
+/**Classe de configuração de conexão com RabbitMQ**/
 @Component
 class RabbitMQConnection(private val amqpAdmin: AmqpAdmin) {
 

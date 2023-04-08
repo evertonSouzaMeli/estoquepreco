@@ -1,4 +1,4 @@
-package com.microservice.estoquepreco.service
+package com.microservice.estoquepreco_producer.service
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate
 import org.springframework.beans.factory.annotation.Autowired
