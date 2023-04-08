@@ -1,4 +1,4 @@
-package com.microservice.estoquepreco.dto
+package com.microservice.estoquepreco_producer.dto
 
 import java.io.Serializable
 

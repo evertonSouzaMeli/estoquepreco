@@ -1,8 +1,8 @@
-package com.microservice.estoquepreco.controller
+package com.microservice.estoquepreco_producer.controller
 
-import com.microservice.estoquepreco.dto.PrecoDTO
-import com.microservice.estoquepreco.enums.RabbitMQEnums.QUEUE_PRECO
-import com.microservice.estoquepreco.service.RabbitMQService
+import com.microservice.estoquepreco_producer.dto.PrecoDTO
+import com.microservice.estoquepreco_producer.enums.RabbitMQEnums.QUEUE_PRECO
+import com.microservice.estoquepreco_producer.service.RabbitMQService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.PutMapping
 import org.springframework.web.bind.annotation.RequestBody

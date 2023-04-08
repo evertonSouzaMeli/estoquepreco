@@ -1,6 +1,6 @@
-package com.microservice.estoquepreco.connections
+package com.microservice.estoquepreco_producer.connections
 
-import com.microservice.estoquepreco.enums.RabbitMQEnums
+import com.microservice.estoquepreco_producer.enums.RabbitMQEnums
 import org.springframework.amqp.core.AmqpAdmin
 import org.springframework.amqp.core.Binding
 import org.springframework.amqp.core.Queue

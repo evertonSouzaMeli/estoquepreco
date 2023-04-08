@@ -1,11 +1,11 @@
-package com.microservice.estoquepreco
+package com.microservice.estoquepreco_producer
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class EstoqueprecoApplication
+class EstoqueprecoProducerApplication
 
 fun main(args: Array<String>) {
-    runApplication<EstoqueprecoApplication>(*args)
+    runApplication<EstoqueprecoProducerApplication>(*args)
 }
