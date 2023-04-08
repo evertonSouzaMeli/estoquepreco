@@ -16,8 +16,8 @@ class RabbitMQConnection(private val amqpAdmin: AmqpAdmin) {
     }
 
      init {
-        val queueStock = Queue(RabbitMQEnums.QUEUE_ESTOQUE.value, true, false, false)
-        val queuePrice = Queue(RabbitMQEnums.QUEUE_PRECO.value, true, false, false)
+        val queueStock = Queue(RabbitMQEnums.QUEUE_ESTOQUE.value)
+        val queuePrice = Queue(RabbitMQEnums.QUEUE_PRECO.value)
         val directExchange = DirectExchange(EXCHANGE_NAME)
 
         val stockBinding = Binding(queueStock.name, Binding.DestinationType.QUEUE, directExchange.name, queueStock.name, null)
