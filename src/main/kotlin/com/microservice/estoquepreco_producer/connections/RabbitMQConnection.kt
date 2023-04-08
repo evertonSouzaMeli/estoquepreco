@@ -7,7 +7,7 @@ import org.springframework.amqp.core.Queue
 import org.springframework.amqp.core.DirectExchange
 import org.springframework.stereotype.Component
 
-//Classe de configuração de conexão com RabbitMQ
+/**Classe de configuração de conexão com RabbitMQ**/
 @Component
 class RabbitMQConnection(private val amqpAdmin: AmqpAdmin) {
 
