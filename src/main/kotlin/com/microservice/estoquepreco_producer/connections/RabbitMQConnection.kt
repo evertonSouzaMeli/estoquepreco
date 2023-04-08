@@ -3,8 +3,8 @@ package com.microservice.estoquepreco_producer.connections
 import com.microservice.estoquepreco_producer.enums.RabbitMQEnums
 import org.springframework.amqp.core.AmqpAdmin
 import org.springframework.amqp.core.Binding
-import org.springframework.amqp.core.Queue
 import org.springframework.amqp.core.DirectExchange
+import org.springframework.amqp.core.Queue
 import org.springframework.stereotype.Component
 
 /**Classe de configuração de conexão com RabbitMQ**/

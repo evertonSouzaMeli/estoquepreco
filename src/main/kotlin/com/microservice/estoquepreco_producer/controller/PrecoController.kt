@@ -4,12 +4,12 @@ import com.microservice.estoquepreco_producer.dto.PrecoDTO
 import com.microservice.estoquepreco_producer.enums.RabbitMQEnums.QUEUE_PRECO
 import com.microservice.estoquepreco_producer.service.RabbitMQService
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.http.HttpStatus.OK
+import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PutMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
-import org.springframework.http.ResponseEntity
-import org.springframework.http.HttpStatus.OK
 
 @RestController
 @RequestMapping("/preco")
