@@ -1,10 +1,10 @@
-package com.microservice.estoquepreco
+package com.microservice.estoquepreco_producer
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class EstoqueprecoApplicationTests {
+class EstoqueprecoProducerApplicationTests {
 
     @Test
     fun contextLoads() {
